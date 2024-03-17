@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  color: white;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    height: 70vh;
+    background-image: linear-gradient(rgba(18, 42, 66, 0.6),rgba(25, 48, 72, 0.6)),url("https://images2.alphacoders.com/592/592195.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 70vh;
+}
+
+.Navsec{
+    padding-top: 3vh;
+}
+
+.col-sm-1 img{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    margin-left: 2.5vh;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-right: 2vh;
+    padding: 0;
+    overflow: hidden;
+    width:80%;
+    float: right;
+  }
+  
+  .navbar li {
+    float: left;
+    padding: 1.5vh;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 800;
+    background-color: transparent;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+    color: white;
+  }
+  
+  .navbar active {
+    background-color: lightgreen;
+  }
+
+  /* sinin box */
+
+  .sinin-box{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+  }
+ 
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .input-row .input-group{
+    flex-basis: 45%;
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    padding-bottom: 4px;
+  }
+
+  .buttn{
+    background-color: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+  }
+  .buttn:hover{
+    background-color: #fff;
+    color: #1c00b5;
+    font-weight: 600;
+  }
+
+  /* footer start */
+  footer{
+    height: 30vh;
+    background-color: #222020;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+  }
+
+  footer:hover{
+    background-color: #383737;
+  }
+
+  footer h1{
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 3vh;
+  }
+  footer p{
+    align-items: center;
+    justify-content: center;
+    line-height: 4vh;
+    padding: 1vh 3vh;
+  }
+  .footernavbar{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-left: 12%;
+    margin-top: 5%;
+  }
+  .footernavbar h2{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-left: 33%;
+  }
+  .footernavbar h4{
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+  }
+  .footernavbar ul{
+    align-items: center;
+    justify-content: center;
+    border: none; 
+  }
+  .footernavbar ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    padding: 1vh;
+    font-size: large;
+  }
+
+  .footernavbar li a{
+    text-decoration: none;
+  }
+  .footernavbar a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+  .footericons{
+    font-size: xx-large;
+    padding: 10vh 5vh;
+  }
+  .footericons a{
+    color: white;
+    padding: 2vh;
+  }
+  /* footer end */
